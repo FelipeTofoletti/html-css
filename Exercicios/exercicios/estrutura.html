@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        div{
+            font-size: 16px;
+        }
+
+        div > ul{
+            display: none;
+        }
+        div:hover > ul{
+            display: block;
+            background-color: darkred;
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <p>Passe o mouse no texto a baixo</p>
+    <div>
+        Passe aqui
+        <ul>
+            <li>Exemplo 01</li>
+            <li>Exemplo 02</li>
+            <li>Exemplo 03</li>
+            <li>Exemplo 04</li>
+            <li>Exemplo 05</li>
+        </ul>
+    </div>
+    <p>Fim Exemplo</p>    
+</body>
+</html>
