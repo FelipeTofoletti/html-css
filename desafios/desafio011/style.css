@@ -1,0 +1,82 @@
+@charset "TUF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, main{
+    background-color: darkgrey;
+    min-height: 100%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: bebas neue, Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+header p{
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    background-color: chocolate;
+    text-decoration: overline;
+    transition: 0.3s;
+}
+
+section{
+    padding: 10%;
+    line-height: 1.6em;
+    font-family: tangerine, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section > p{
+    background-color: rgba(0, 0, 0, 0.082);
+    max-width: 350px;
+    padding: 10px;
+}
+
+section.imagem#i1{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+section.imagem#i2{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: bebas neue, Arial, Helvetica, sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size: 20px;
+}
