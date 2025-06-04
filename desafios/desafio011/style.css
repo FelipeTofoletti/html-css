@@ -62,6 +62,7 @@ section.imagem#i1{
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    background-position: right center;
 }
 
 section.imagem#i2{
@@ -69,6 +70,7 @@ section.imagem#i2{
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    background-position: right center;
 }
 
 footer{
